@@ -257,6 +257,8 @@ function startTimer() {
 function whack(event) {
   // TODO: Write your code here.
 
+  // check to make sure you can't whack the same mole more than once in a row
+  //
   if (lastHoleWhack != lastHole) {
     updateScore();
     lastHoleWhack = lastHole;
